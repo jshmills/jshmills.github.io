@@ -1,0 +1,24 @@
+{
+  "name": "jshmills.github.io",
+  "version": "1.0.0",
+  "description": "Digital resume highlighting accomplishments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/scss -o assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshmills/jshmills.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jshmills/jshmills.github.io/issues"
+  },
+  "homepage": "https://github.com/jshmills/jshmills.github.io#readme",
+  "dependencies": {
+    "isotope-layout": "^3.0.6",
+    "node-sass": "^4.14.1"
+  }
+}

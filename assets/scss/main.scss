@@ -138,12 +138,13 @@
 	a {
 		@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
 		border-bottom: solid 1px _palette(border2);
-		color: inherit;
+		color: _palette(accent1, bg);
 		text-decoration: none;
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(accent1, bg) !important;
+			//color: _palette(accent1, bg) !important;
+			//font-weight:bold;
 		}
 	}
 
@@ -1833,3 +1834,4 @@
 			}*/
 
 	}
+

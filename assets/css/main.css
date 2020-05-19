@@ -1745,7 +1745,7 @@ input[type="button"],
           padding: 0.85em 0;
           text-decoration: none; }
           #header > nav ul li a.active {
-            background: #fff;
+            background: #c8eae1;
             color: #4acaa8 !important; }
         #header > nav ul li:first-child {
           border-top: 0; }
